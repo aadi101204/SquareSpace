@@ -1,0 +1,53 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+p {
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+button {
+  width: 120px;
+  height: 80px;
+  align-items: center;
+  color: black;
+  background-color: yellow;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.flex-item {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin: 0px;
+}
+
+.row {
+  background-color: rgb(85, 85, 38);
+  border-radius: 10px;
+  border-color: black;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+.column {
+  margin: 10px;
+}
